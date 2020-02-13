@@ -26,6 +26,7 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off', //allow if there's only one export, not be the default
     'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': ['error', { ignore: ['navigation'] }],
   },
   settings: {
     'import/resolver': {
